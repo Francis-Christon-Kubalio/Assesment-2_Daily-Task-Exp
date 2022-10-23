@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex_Animal Kindom</title>
+    <link rel="stylesheet" href="" type="text/css">
+</head>
+<body style = "background-color: cyan;">
+    <style>
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:150px;
+            height:150px;
+
+            background-color: rgb(31, 205, 217);
+        }
+        .super-con{
+            display:flex;
+            justify-content: center;
+
+            flex-direction:column;
+            margin-top:125px;
+
+        }
+.container{
+    height:250px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+
+
+.container div{
+    font-size:65px;
+}
+    </style>
+    <div class="super-con">
+    <div class="container">
+            <div class="item">🐘</div>
+            <div class="item">🦄</div>
+            <div class="item">🦊</div>
+            <div class="item">🦌</div>
+        </div>
+        <div class = "container">
+            <div class="item">🐟</div>
+            <div class="item">🦁</div>
+            <div class="item">🐔</div>
+            <div class="item">🐞</div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
